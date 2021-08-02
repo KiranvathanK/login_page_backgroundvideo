@@ -1,0 +1,101 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+
+}
+.section{
+  position: relative;
+  width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.login-box{
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  margin-left:25%;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 17px 0;
+  border-bottom: 1px solid #fff;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background:rgb(201, 25, 55);
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  height:40px;
+}
+#forgot{
+color:white;
+float: right;
+}
+
+.btn1{
+    width: 45%;
+    background:	#4267B2;
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    height:35px;
+  }
+
+  .btn2{
+    width: 45%;
+    background:#1DA1F2;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    height:35px;
+    cursor: pointer;
+  }
+  h3{
+    margin-left: 45%;
+  }
+
+ .myvideo{
+    position :absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #000000;
+    opacity: 0.8;
+  }
